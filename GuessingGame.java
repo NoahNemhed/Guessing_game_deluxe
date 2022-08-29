@@ -38,6 +38,7 @@ public class GuessingGame {
                                 guesses = 3;
                                 break;
                             case "x":
+                                System.out.println("The secret number was - " + this.number);
                                 System.out.println("Quitting");
                         }
                     }
